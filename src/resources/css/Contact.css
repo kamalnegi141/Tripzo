@@ -1,0 +1,168 @@
+.contact{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contact-bottom {
+    background-image: url('../images/Contact/contactbg.jpg');
+    box-sizing: border-box;
+    margin: 120px 0;
+    background-size: contain;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 120px;
+}
+
+.details-container {
+    flex: 0 0 50%;
+    max-width: 47%;
+}
+
+.contact-details>h1 {
+    font-size: 25px;
+    color: #1e1666;
+}
+
+.contact-details>hr {
+    width: 60px;
+    height: 3px;
+    background-color: #f11d66;
+    border: none;
+    margin: 20px 0;
+}
+
+.contact-details>p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-family: 'Yusei Magic';
+    margin-bottom: 50px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.details>img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.details>p, .icon>p {
+    font-family: 'Yusei Magic';
+}
+
+.icon>span {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+.icon>p {
+    margin-top: 10px;
+}
+
+.form-container {
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 30px;
+}
+
+.contact-form>h2 {
+    font-size: 25px;
+    color: #1e1666;
+    margin: 50px 0px;
+}
+
+.contact-form>input {
+    height: 50px;
+    background-color: #F3F5FD;
+    border: 1px solid #F3F5FD;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: 'Yusei Magic';
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-form>input:focus, .contact-form>textarea:focus {
+    border: 1px solid #f11d66;
+}
+
+.contact-form>textarea {
+    background-color: #F3F5FD;
+    border: 1px solid #F3F5FD;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Yusei Magic';
+    border-radius: 5px;
+    outline: none;
+}
+.message{
+    color: white;
+    background: linear-gradient(to right, #fa897d 0%, #fe5f88 100%);
+    cursor: pointer;
+    padding: 15px 40px;
+    width: max-content;
+    border: none;
+    margin-bottom: 40px;
+    outline: none;
+}
+@media screen and (max-width:1000px) {
+    .contact-container{
+        margin: 50px 80px;
+    }
+}
+@media screen and (max-width:850px) {
+    .contact-container{
+        margin: 50px 40px;
+    }
+}
+@media screen and (max-width:700px) {
+    .contact-container{
+        flex-direction: column;
+    }
+    .details-container{
+        max-width: 80%;
+    }
+    .details-container:last-child{
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:420px) {
+    .contact-container{
+        margin: 50px 20px;
+    }
+}
+@media screen and (max-width:350px) {
+    .contact-container{
+        margin: 50px 0;
+    }
+    .contact-form>h2{
+        font-size: 20px;
+    }
+    .message{
+        padding: 15px 20px;
+    }
+    .form-container{
+        margin: 0;
+    }
+}

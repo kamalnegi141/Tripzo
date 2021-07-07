@@ -1,0 +1,365 @@
+.our-service{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.our-service-top{
+    width: 100%;
+    display: flex;
+    background-image: url('../images/Services/servicebackground.jpg');
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.our-service-intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 80px;
+    color: white;
+}
+.our-service-intro>h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.our-service-intro>p{
+    font-size: 17px;
+    font-family: 'Yusei Magic';
+}
+.our-service-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.our-service-detail{
+    flex: 0 0 33.33%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 100px 20px;
+    margin-bottom: 0;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.left{
+    padding: 20px;
+}
+.left>h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #1e1666;
+}
+.left>.bottom-line{
+    background-color: #f11d66;
+    width: 60px;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.support-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.support-title>h2{
+    margin-left: 20px;
+    color: #1e1666;
+}
+.support-des{
+    font-size: 14px;
+    font-family: 'Yusei Magic';
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+.service-detail-card{
+    padding: 20px 50px;
+    text-align: center;
+    height: 440px;
+}
+.service-detail-card>img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+.service-detail-card>h2{
+    color: #1e1666;
+    margin: 20px 0;
+}
+.service-detail-card>p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Yusei Magic';
+}
+.service-card{
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.service-card:hover{
+    transform: translateY(-10px);
+}
+.provided-service{
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: #f7fafc;
+}
+.service-title{
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+.service-title>h1{
+    color: #1e1666;
+    margin-bottom: 20px;
+}
+.service-title>hr{
+    width: 60px;
+    display: block;
+    margin: auto;
+    height: 3px;
+    background-color: #f11d66;
+    border: none;
+    margin-bottom: 20px;
+}
+.service-title>p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Yusei Magic';
+}
+.service-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.icon{
+    flex: 0 0 33%;
+    max-width: fit-content;
+}
+.providedservice-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+}
+.card-left{
+    width: 120px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-right{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.card-right>h3{
+    font-size: 20px;
+    color: #1e1666;
+    margin-bottom: 15px;
+}
+.card-right>p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    font-family: 'Yusei Magic';
+}
+.faq{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.faq>img{
+    width: 100%;
+    height: 100%;
+}
+.faq-detail{
+    margin-left: 20px;
+}
+.faq-title>h1{
+    font-size: 28px;
+    color: #1e1666;
+}
+.faq-title>hr{
+    width: 60px;
+    display: block;
+    height: 3px;
+    background-color: #f11d66;
+    border: none;
+    margin: 30px 0;
+}
+.faq-title>p{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Yusei Magic';
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.faq-question{
+    background-color: #e6f0f5;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1e1666;
+    transition: height 0.3s ease-in-out;
+}
+.plus,.minus{
+    font-size: 30px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.minus{
+    display: none;
+}
+.faq-answer{
+    display: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    font-family: 'Yusei Magic';
+}
+@media screen and (max-width:1000px) {
+    .our-service-intro>h1{
+        font-size: 28px;
+    }
+    .provided-service{
+        padding: 100px 70px;
+    }
+    .faq>img{
+        width: 400px;
+        height: 400px;
+    }
+    .faq{
+        margin: 100px 70px;
+    }
+}
+@media screen and (max-width:880px) {
+    .left>h1{
+        font-size: 25px;
+    }
+    .support-title{
+        font-size: 15px;
+    }
+    .support-title>img{
+        width: 30px;
+        height: 30px;
+    }
+    .faq{
+        margin: 100px 40px;
+    }
+    .faq-title>h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:800px) {
+    .our-service-intro>h1{
+        font-size: 20px;
+    }
+    .our-service-intro>p{
+        font-size: 14px;
+    }
+    .left>h1{
+        font-size: 20px;
+    }
+    .support-title{
+        font-size: 14px;
+    }
+    .support-title>img{
+        width: 20px;
+        height: 20px;
+    }
+    .provided-service{
+        padding: 100px 40px;
+    }
+    .question>h4,.faq-answer,.faq-title>p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:750px) {
+    .our-service-top{
+        flex-direction: column;
+    }
+    .our-service-intro{
+        margin-top: 50px;
+        margin-right: 80px;
+    }
+    .our-service-intro>h1{
+        font-size: 25px;
+    }
+    .provided-service{
+        padding: 100px 20px;
+    }
+    .card-right>h3{
+        font-size: 18px;
+    }
+    .card-right>p{
+        font-size: 14px;
+    }
+    .faq-title>h1{
+        font-size: 18px;
+    }
+    .faq>img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:650px) {
+    .left{
+        width: 400px;
+    }
+}
+@media screen and (max-width:600px) {
+    .faq{
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq>img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:500px) {
+    .our-service-image>img{
+        width: 350px;
+        height: 350px;
+    }
+    .service-title>h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:400px) {
+    .our-service-detail,.left{
+        max-width: 300px;
+    }
+    .service-detail-card>h2{
+        font-size: 18px;
+    }
+    .faq-title>h1{
+        font-size: 16px;
+    }
+}

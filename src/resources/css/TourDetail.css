@@ -1,0 +1,183 @@
+.tour-detail {
+    margin: 10px 100px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+    display: block;
+}
+
+.tour-location {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.place-details {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.description>h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.description p span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.description p {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Yusei Magic';
+    margin: 10px 0px;
+}
+
+.view-hide-btn {
+    text-decoration: none;
+    color: #ff4a52;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#hidden {
+    display: none;
+}
+
+#hidden h3 {
+    margin-top: 10px;
+}
+#hidden>p{
+    color: rgba(0, 0, 0, 0.4);
+}
+.package-details {
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.package-table {
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.package-table th, .package-table td {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.package-table th, .package-table td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.package-table td {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-family: 'Yusei Magic';
+    text-align: center;
+}
+
+.package-table th {
+    border-top: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+}
+
+.package-table th:first-child, .package-table td:first-child {
+    border-left: none;
+}
+
+.package-table th:last-child, .package-table td:last-child {
+    border-right: none;
+}
+
+.package-table tr:last-child td {
+    border-bottom: none;
+}
+
+.detail-btn, .book-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: #ea2330;
+    background-color: #ea2330;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Yusei Magic';
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle{
+    display: none;
+}
+.toggle>td {
+    text-align: left !important;
+}
+
+.toggle>td>p {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.toggle>td>p>span {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.less-btn {
+    display: none;
+}
+@media screen and (max-width:880px) {
+    .tour-detail{
+        margin: 10px 50px;
+    }
+}
+@media screen and (max-width:650px) {
+    .tour-detail{
+        margin: 10px 30px;
+    }
+}
+@media screen and (max-width:530px) {
+    .tour-location{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    .tour-detail{
+        margin: 10px 20px;
+    }
+    .include{
+        display: none;
+    }
+    .package-table th,.package-table td{
+        font-size: 14px;
+    }
+    .detail-btn,.book-btn{
+        font-size: 14px;
+        padding: 2px;
+        width: fit-content;
+    }
+    .toggle >td>p >span{
+        font-size: 14px;
+    }
+    .toggle>td>p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:350px) {
+    .tour-detail{
+        margin: 10px 5px;
+    }
+}

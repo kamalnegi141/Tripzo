@@ -1,0 +1,37 @@
+.popular-places{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+.single-place{
+    background-color: white;
+}
+.single-place:hover{
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.single-place:hover .place-des > h1{
+    color: #ff4a52;
+}
+.single-place:hover{
+    transform: translateY(0);
+}
+.more-btn{
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Yusei Magic';
+    color: white;
+    background-color:#ff4a52; 
+    margin-top: 50px;
+    
+}
+.more-btn:hover{
+    background-color: #1ec6b6;;
+}

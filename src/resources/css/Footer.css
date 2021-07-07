@@ -1,0 +1,116 @@
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    background-color: #040E27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-top {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 50px;
+}
+
+.footer-details {
+    flex: 0 0 33.33%;
+}
+.company-info>p {
+    font-family: 'Yusei Magic';
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.social-links>a>span {
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-links>a>span:hover {
+    color: #ff4a52;
+}
+
+.footer-links {
+    margin-top: 40px;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Yusei Magic';
+}
+
+.footer-links>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-links>a>li {
+    margin: 15px 0;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-links>a>li:hover {
+    color: #ff4a52;
+}
+.footer-links a>li:first-child{
+    margin-top: 0;
+}
+.footer-bottom {
+    font-family: 'Yusei Magic';
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:850px) {
+    .footer-top{
+        width: 80%;
+    }
+}
+@media screen and (max-width:730px) {
+    .footer-top{
+        width: 90%;
+    }
+    .footer-title{
+        font-size: 14px;
+    }
+    .company-info>.nav-logo>h2,.company-info>.nav-logo>span{
+        font-size: 25px;
+    }
+    .company-info>p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:550px) {
+    .footer-top{
+        flex-direction: column;
+        width: 70%;
+    }
+    .footer-details{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer-bottom{
+        font-size: 12px ;
+    }
+}

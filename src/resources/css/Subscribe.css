@@ -1,0 +1,94 @@
+.subscribe{
+    width: 100%;
+    height: 150px;
+    background-color: #040e27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-text{
+    margin-left: 30px;
+}
+.subscribe > .sub-text{
+    display: flex;
+    flex-direction: column;
+}
+.sub-text > h2{
+    font-size: 25px;
+    font-family: 'Nato Sans JP',sans-serif;
+    margin-right: 30px;
+}
+.sub-text > p {
+    font-family: 'Yusei Magic';
+    margin-top: 20px;
+}
+.sub-form{
+    margin-left: 50px;
+}
+.sub-form > input{
+    width: 260px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-family: 'Yusei Magic';
+    border: none;
+}
+.sub-form > input::placeholder{
+    color: rgba(0, 0, 0, 1);
+}
+#submit{
+    width: 120px;
+    background-color: #ff4a52;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #1ec6b6;
+}
+@media screen and (max-width:990px) {
+    .sub-form{
+        margin-top: 10px;
+    }
+    #submit{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:830px) {
+    .sub-text>h2{
+        font-size: 20px;
+    }
+    .sub-text>p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:620px) {
+    .subscribe{
+        flex-direction: column;
+        height: max-content;
+    }
+    .sub-text{
+        margin-top: 20px;
+    }
+    .sub-form{
+        margin-bottom: 20px;
+        margin-left: -5px;
+    }
+}
+@media screen and (max-width:500px) {
+    .sub-form{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:460px) {
+    .sub-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,195 @@
+/* disconut page css*/
+
+.discount {
+    font-size: 14px;
+    font-family: 'Yusei Magic';
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 100px;
+}
+
+.discount-top>h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 180px;
+    display: flex;
+}
+
+.discount-top>h2>a {
+    font-size: 16px;
+    margin-left: 30px;
+    color: #2a92c5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arrows {
+    z-index: 10;
+}
+
+.left-arrow, .right-arrow {
+    display: inline-block;
+    background-color: #666;
+    margin: 0px 5px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 13px 8px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.left-arrow {
+    left: -1%;
+}
+
+.right-arrow, .left-arrow {
+    position: absolute;
+    top: 43%;
+    z-index: 10;
+}
+
+.right-arrow {
+    right: -1%;
+}
+
+/* disconut carousel css*/
+
+#carousel-container {
+    width: 75%;
+    margin: 50px auto;
+    min-height: 215px;
+    position: relative;
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+#track {
+    display: inline-flex;
+    transition: all 0.5s;
+    padding-left: 15px;
+}
+
+.card-container {
+    width: 21%;
+    height: 250px;
+    flex-shrink: 0;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.discount-card {
+    border: 1px solid rgba(236, 80, 125, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(231, 164, 183, 0.1);
+    line-height: 1.6rem;
+}
+
+.card-top {
+    margin: 40px 30px 0px 30px;
+}
+
+.card-top>p>span {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #ff4a52;
+    font-weight: 600;
+}
+
+.card-bottom {
+    margin: 15px 30px 0px 30px;
+}
+
+.card-top>h3 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.card-top>h3>span {
+    font-size: 13px;
+}
+
+.card-bottom>button {
+    float: left;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Yusei Magic';
+    background-color: #E74C3C;
+    cursor: pointer;
+}
+
+.card-bottom>span {
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+@media screen and (max-width:1020px) {
+    #carousel-container{
+        width: 76%;
+    }
+}
+@media screen and (max-width:1000px) {
+    #carousel-container{
+        width: 77%;
+    }
+}
+@media screen and (max-width:850px) {
+    #carousel-container{
+        width: 91%;
+    }
+}
+@media screen and (max-width:700px) {
+    #carousel-container{
+        width: 74%;
+    }
+}
+@media screen and (max-width:560px) {
+    #carousel-container{
+        width: 49%;
+    }
+    .discount-top>h2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+}
+@media screen and (max-width:500px){
+    #carousel-container{
+        width: 53%;
+    }
+}
+@media screen and (max-width:450px) {
+    #carousel-container{
+        width: 64%;
+    }
+}
+@media screen and (max-width:400px) {
+    #carousel-container{
+        width: 72%;
+    }
+}
+@media screen and (max-width:350px) {
+    #carousel-container{
+        width: 82%;
+    }
+    .discount-top>h2{
+        margin-left: 40px;
+        font-size: 18px;
+    }
+    .discount-top>h2>a{
+        margin-left: 0px;
+    }
+}

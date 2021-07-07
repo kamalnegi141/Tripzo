@@ -1,0 +1,57 @@
+.services{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 150px 0px;
+}
+.service-details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.service-name{
+    max-width: 30%;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+.service-name > img{
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+}
+.service-name > h2{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.service-name > p {
+    font-family: 'Yusei Magic';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+@media screen and (max-width:1200px) {
+    .service-name{
+        max-width: 40%;
+    }
+    .service-name:last-child{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:600px) {
+    .service-name{
+        max-width: 80%;
+    }
+    .service-name:first-child{
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width:400px) {
+    .service-name>h2{
+        font-size: 20px;
+    }
+}

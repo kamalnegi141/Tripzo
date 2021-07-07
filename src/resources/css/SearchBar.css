@@ -1,0 +1,119 @@
+.searchbar  {
+    width: 100%;
+    height: 150px;
+    background-color: #040e27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar > h1{
+    font-size: 25px;
+    font-family: 'Nato Sans JP',sans-serif;
+    margin-right: 30px;
+}
+.searchform input{
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-family: 'Yusei Magic';
+    border: none;
+}
+.traveloption{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-family: 'Yusei Magic';
+    cursor: pointer;
+}
+.searchform input::placeholder{
+    color: rgba(0, 0, 0, 1);
+}
+#search{
+    width: 120px;
+    background-color: #ff4a52;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+}
+#search:hover{
+    background-color: #1ec6b6;
+}
+@media screen and (max-width:1110px) {
+    .searchform>input{
+        width: 150px;
+    }
+    .searchbar>h1{
+        font-size: 20px;
+    }
+    .traveloption{
+        width: 150px;
+        font-size: 14px;
+    }
+    .searchform input::placeholder{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:950px) {
+    .searchform>input{
+        width: 100px;
+    }
+    .searchbar>h1{
+        font-size: 18x;
+    }
+    .traveloption{
+        width: 100px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:800px) {
+    .searchbar{
+        display: block;
+        margin: auto;
+    }
+    .searchbar>h1{
+        font-size: 18x;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .searchform{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:550px) {
+    .searchbar{
+        height: max-content;
+    }
+    .searchform>input{
+        margin: 10px 20px;
+    }
+    .traveloption{
+        margin: 10px 20px;
+    }
+}
+@media screen and (max-width:420px) {
+    .traveloption{
+        margin-left: -10px;
+    }
+    .searchform>input,.traveloption{
+        width: 150px;
+    }
+}
+@media screen and (max-width:350px){
+    .traveloption{
+        margin-left: 20px;
+    }
+}
